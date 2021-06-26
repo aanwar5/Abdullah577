@@ -1,6 +1,6 @@
 #Abdullah577/lib.py
 
-from simpleimage import SimpleImage
+from Abdullah577.simpleimage import SimpleImage
 
 def main():
     image_name = input('enter an image name: ')
