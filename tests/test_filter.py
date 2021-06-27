@@ -1,8 +1,10 @@
 #tests/test_filter.py
 
-from Abdullah577 import simpleimage 
-from Abdullah577.lib import main, sepia_pixel
+from Abdullah577 import lib
 
-def test_main():
-    assert(main()) !=0
-    assert(sepia_pixel(50)) != int
+abc = 'Dani'
+cde = 'Sarah'
+
+def test_hello_le_wagon():
+    assert type(lib.hello_le_wagon(abc)) != int
+    assert len(lib.hello_le_wagon(cde)) != 0

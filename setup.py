@@ -13,5 +13,5 @@ setup(name='Abdullah577',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/Abdullah577-run'],
+      scripts=['scripts/Abdullah577-run', 'scripts/Abdullah577-compute.py'],
       zip_safe=False)
